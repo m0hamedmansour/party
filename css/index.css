@@ -1,0 +1,57 @@
+header{
+    background-image:  linear-gradient(to bottom,#0000003a,#00000025),url('../imges/pexels-wendy-wei-1190298.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+.icon{
+    position:absolute;
+    left: 0;
+    top:50%;
+}
+:root{
+    scroll-behavior:auto;
+}
+.divs{
+    background-image:linear-gradient(to bottom,#0000005d,#0000006d),url('../imges/pexels-wendy-wei-1190298.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+.hov{
+transition: 0.3s;
+}
+.hov:hover{
+background-color:#E6707B;
+color: white;
+}
+.side{
+    width: fit-content;
+}
+#blackslide{
+    position: fixed;
+    width: fit-content;
+    height: 100vh;
+    width:25%;
+    top: 0;
+    left: 0;
+    z-index: 55;
+    transition: 0.1s ;
+    display: flex;
+    display: none;
+    white-space:nowrap;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff; 
+}
+.groundside{
+    transition: 1s all;
+}
+.groundside:hover ,.close:hover{
+    color:#E6707B !important;
+}
+.div1 ,.div2 ,.div3,.div4{
+    display: none;
+}
